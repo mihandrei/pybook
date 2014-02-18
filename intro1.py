@@ -1,16 +1,8 @@
-# nota catre mine : incearca sa iti mentii concentrarea si fluiditatea
-
-# Trenul tocmai iese printre nameti inalti din Bistrita.
-# Inca ninge slab si copacii sunt pudrati de zapada inalta.
-# A sosit deodata, zapada asta frumoasa si bogata, atat de brusc dupa ploi si
-# vreme calda ca nu-ti vine sa crezi. Parca m-as fi trezit dintr-o lunga
-# adormire intr-o lume noua.
-
 # Acesta line e un comentariu. A inceput cu #. Menirea lui e sa fie citit
 # de oameni si ignorat de masina. Aici se refugiaza limba oamenilor
 # In afara comentariilor e limba masinii:
 print 'Masina vorbeste'
-# Alaturi doi unguri vorbesc. Sunt multe limbi a masinii.
+# Sunt multe limbi a masinii.
 # Limba de aici e python.
 print 'Sunt python'
 # Ea i se adreseaza Interpretorului. El pricepe python.
@@ -21,8 +13,14 @@ print 'Salutare lume!'
 # Daca dai dublu click pe acest fisier windows ar trebui sa-i
 # spuna Interpretorului sa-i dea drumu  la treaba
 
+# Interpretorul citeste si executa comenzile din acest fisier
+# in ordinea in care au fost scrise
+print "intai se executa primul print"
+print "apoi acest al doilea"
+
 # Romana are parti de vorbire: substantive adjective ...
 # Python are tipuri de date :
+
 # siruri
 print 'Sunt un sir'
 # numere
@@ -38,6 +36,7 @@ print 2/3
 print 3 < 5
 # Verbe folosite cu siruri
 print 'Acest sir se va lipi ' + 'de acesta'
+print 'a'*3
 
 # Unele propozitii nu au sens. Decomenteaza mai jos si Interpretorul se va
 # plange de o eroare de sintaxa (ortografie).
@@ -50,6 +49,7 @@ print 'Acest sir se va lipi ' + 'de acesta'
 # nume_functie(argument1, argument2)
 # Ex len - lungimea a ceva
 print len('ana are mere')
+
 # Ex transforma un sir intr-un numar.
 # Al doilea argument e baza in care e scris numarul
 print int('101', 2)
@@ -59,7 +59,7 @@ print int('B', 16)
 # Cateva verbe sunt oarecum universale; au sens cu orice tip de date
 print 2 == 2
 print 'ana' == 'ana'
-print str(432) # transforma ceva intr-un sir
+print str(432)  # transforma ceva intr-un sir
 
 # Dupa cum ai observat verbele au numele lor
 # Si noi putem numi valorile unui tip de date
@@ -72,4 +72,14 @@ print un_sir_numit + str(2 + 4)
 
 # experimenteaza:
 print un_sir_numit * 2
+
+# Un tip de date important in python e bool-eanul
+# Poate avea doar 2 valori True (adevarat) sau False
+print True
+# Unele expresii au un rezultat boolean
+# Ex :
+# e adevarat ca 2 e intre 1 si 3
+print 1 < 2 < 3
+# e fals ca lungimea sirului 'ana' e 5
+print len('ana') == 5
 
