@@ -45,6 +45,11 @@ a == 3
 
 # Deconstructia e mecanismul prin care in Py poti intoarce 'mai multe valori' dintr-o functie
 # a, b = functie()
+# DEconstructia merge cu mai multe valori
+a, b, c = 1, 4, 2
+# Deconstructia merge si cu alte secvente
+a, b = [3, 5]
+a, b = "AT"
 
 # indexare
 # --------

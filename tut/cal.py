@@ -1,7 +1,7 @@
 def leap_years_util(y):
     """ leap years in the interval [1, y[ """
     # Every 4 years we count one. Every 100 years we should have not counted. Except every 400
-    return y // 4 - y // 100 + y // 400
+    return y / 4 - y / 100 + y / 400
 
 
 def is_leap(y):
@@ -26,7 +26,7 @@ def day_of_year(y, m, d):
     if is_leap(y):
         days_in_month[1] = 29
     passed = d
-    for i in xrange(m - 1):
+    for i in range(m - 1):
         passed += days_in_month[i]
     return passed
 

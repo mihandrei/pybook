@@ -1,4 +1,4 @@
-from tut import charts
+import charts
 
 
 def logistic_step(x, r):

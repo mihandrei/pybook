@@ -119,6 +119,8 @@ s == [[1], [1]]  # no tulai ca s-o schimbat si s[1][0]!
 # functii cu liste
 # -----------------
 len([1, 3, 4]) == 3  # lungime
+z = zip([4, 5, 6], ['a', 't', 'u'])  # fermoar: lipeste primele valoare din lista 1 cu prima din lista 2
+z == [(4, 'a'), (5, 't'), (6, 'u')]  # (4,a) e un tuplu. vezi tuple.py
 
 # metode
 # ------
